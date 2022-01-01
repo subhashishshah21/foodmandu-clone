@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  height: 8vh;
+  border-bottom: 1px solid whitesmoke;
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+}
+.navbar__logo {
+  height: 90px;
+  object-fit: contain;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.navbar__btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #00a145;
+  color: #00a145;
+  border-radius: 2px;
+  cursor: pointer;
+  background: transparent;
+  font-family: sans-serif;
+  font-weight: 300;
+  margin-right: 60px;
+  transition: all 0.2s ease-in-out;
+}
+.navbar__btn:hover {
+  background-color: rgba(77, 162, 70, 0.1);
+}

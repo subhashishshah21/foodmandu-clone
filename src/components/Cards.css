@@ -1,0 +1,14 @@
+.card-items {
+  margin-top: 20px;
+}
+.card__image {
+  height: 180px;
+  object-fit: contain;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.card__image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
